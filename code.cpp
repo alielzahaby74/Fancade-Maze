@@ -146,13 +146,14 @@ bool solve(int x, int y)
 }
 int main()
 {
-	cout << "note: this code works on an N*N matrix and is 1-based\n";
+	cout << "note: this code works on an N*N matrix and is 1-based indexed\n";
 	cout << "enter the grid size \n";
 	cin >> n;
-	cout << "enter the coordinate of the y-axis \n";
+	cout << "enter the coordinate of the player y-axis \n";
 	cin >> posy;
-	cout << "enter the coordinate of the x-axis \n";
+	cout << "enter the coordinate of the player x-axis \n";
 	cin >> posx;
+	cout << "draw the map and put dot on each empty space or player space and x on any obstacle \n";
 	//input
 	for(int i = 1 ; i <= n ; ++i)
 		for(int j = 1; j <= n; ++j)
